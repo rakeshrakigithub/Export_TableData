@@ -4,7 +4,7 @@ import ReactPaginate from 'react-paginate';
 import { CSVLink } from 'react-csv';
 
 const Dashboard = () => {
-  const [data, setData] = useState([]);
+ //  const [data, setData] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
   const [currentPage, setCurrentPage] = useState(0);
 
