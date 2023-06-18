@@ -15,7 +15,7 @@ const Dashboard = () => {
   const fetchData = async () => {
     try {
       const response = await axios.get("https://fakestoreapi.com/users");
-      setData(response.data);
+      //setData(response.data);
       setFilteredData(response.data);
     } catch (error) {
       console.error('Error fetching data:', error);
