@@ -21,14 +21,14 @@ const Dashboard = () => {
       console.error('Error fetching data:', error);
     }
   };
-  const filterData = (searchTerm) => {
-    const filtered = data.filter((record) =>
-      Object.values(record).some((value) =>
-        value.toString().toLowerCase().includes(searchTerm.toLowerCase())
-      )
-    );
-    setFilteredData(filtered);
-  };
+  // const filterData = (searchTerm) => {
+  //   const filtered = data.filter((record) =>
+  //     Object.values(record).some((value) =>
+  //       value.toString().toLowerCase().includes(searchTerm.toLowerCase())
+  //     )
+  //   );
+   // setFilteredData(filtered);
+  //};
 
   const handlePageChange = ({ selected }) => {
     setCurrentPage(selected);
